@@ -31,6 +31,26 @@ reg.login.push_back(login_);
 reg.name.push_back(name_);
 reg.password.push_back(password_);
 }
+
+std::vector<string> login;
+    std::cout << "Please input login" << std::endl
+              << std::endl;
+    string login_;
+    auto i = 0;
+    while (i < 10)
+    {
+        std::cin >> login_;
+        login.push_back(login_);
+        i++;
+    }
+
+
+
+
+
+
+
+
 reg.login.push_back(login_);
 reg.name.push_back(name_);
 reg.password.push_back(password_);
